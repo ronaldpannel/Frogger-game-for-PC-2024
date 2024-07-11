@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frogger 2024</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="assets">
+      <img id="waterBg" src="./assets/background.png" alt="" />
+      <img id="roadBg" src="./assets/background_lvl2.png" alt="" />
+      <img id="grassBg" src="./assets/grass.png" alt="" />
+      <img id="collisionImg" src="./assets/collisions.png" alt="" />
+      <img id="logImg" src="./assets/log.png" alt="" />
+      <img id="carImg" src="./assets/cars.png" alt="" />
+      <img id="turtleImg" src="./assets/turtles.png" alt="" />
+      <img id="frogImg" src="./assets/frog_spritesheet.png" alt="" />
+
+      <audio id="carHitSound" src="./assets/carHit.mp3"></audio>
+      <audio id="frogSound" src="./assets/mutant_frog-2.wav"></audio>
+      <audio id="splashSound" src="./assets/splash2.wav"></audio>
+    </div>
+
+    <canvas class="canvas1" id="canvas1"> </canvas>
+    <canvas class="canvas2" id="canvas2"> </canvas>
+    <canvas class="canvas3" id="canvas3"> </canvas>
+    <canvas class="canvas4" id="canvas4"> </canvas>
+
+    <script src="audio.js"></script>
+    <script src="particles.js"></script>
+    <script src="obstacles.js"></script>
+    <script src="frogger.js"></script>
+    <script src="backgrounds.js"></script>
+    <script src="utilities.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
